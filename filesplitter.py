@@ -25,4 +25,4 @@ def main():
             data = inFile.read(chunksize)
 
 if __name__=='__main__':
-    main() # D:\>python replay.py --to to.ts --from from.ts --chunksize 200000000 -p
+    main() # D:\>python filesplitter.py --to to.ts --from from.ts --chunksize 200000000 -p
